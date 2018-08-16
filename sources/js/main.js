@@ -14,7 +14,7 @@ function count() {
 
     // 获得时间
     date_now = new Date()
-    date_begin = new Date(2010, 10, 8)
+    date_begin = new Date(2010, 9, 8)
     days = Math.floor((date_now.getTime() - date_begin.getTime()) / (24 * 3600 * 1000)) + 1
     hours = date_now.getHours()
     minutes = date_now.getMinutes()
